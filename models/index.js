@@ -29,7 +29,7 @@ Tag.belongsToMany(Product, {
     model: ProductTag,
     unique: false,
   },
-  foreignKey: "product_id",
+  foreignKey: "tag_id",
 });
 
 module.exports = {
